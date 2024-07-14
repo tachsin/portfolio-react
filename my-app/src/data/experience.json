@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "position": "Experience 1",
+    "begin_date": "2019_2020",
+    "end_date": "2020_2021",
+    "company": "Company 1",
+    "description": "Description 1",
+    "size": "170px",
+    "position_style": {
+      "top": "30%",
+      "left": "40%"
+    }
+  },
+  {
+    "id": 2,
+    "position": "Experience 2",
+    "begin_date": "2018_2019",
+    "end_date": "2019_2020",
+    "company": "Company 2",
+    "description": "Description 2",
+    "size": "150px",
+    "position_style": {
+      "top": "10%",
+      "left": "20%"
+    }
+  },
+  {
+    "id": 3,
+    "position": "Experience 3",
+    "begin_date": "2017_2018",
+    "end_date": "2018_2019",
+    "company": "Company 3",
+    "description": "Description 3",
+    "size": "190px",
+    "position_style": {
+      "top": "50%",
+      "left": "60%"
+    }
+  },
+  {
+    "id": 4,
+    "position": "Experience 4",
+    "begin_date": "2016_2017",
+    "end_date": "2017_2018",
+    "company": "Company 4",
+    "description": "Description 4",
+    "size": "230px",
+    "position_style": {
+      "top": "90%",
+      "left": "10%"
+    }
+  },
+  {
+    "id": 5,
+    "position": "Experience 5",
+    "begin_date": "2015_2016",
+    "end_date": "2016_2017",
+    "company": "Company 5",
+    "description": "Description 5",
+    "size": "210px",
+    "position_style": {
+      "top": "70%",
+      "left": "80%"
+    }
+  }
+]

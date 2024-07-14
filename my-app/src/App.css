@@ -1,0 +1,363 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #D3C5D4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(20px + 2vmin);
+  color: white;
+}
+
+.home {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.home-logo {
+  width: 70vw;
+  height: 45vmin;
+  pointer-events: none;
+  margin-top: 7vh;
+  margin-left: 5vw;
+}
+
+.iam {
+  position: absolute;
+  top:  8vmin; /* 1vh boşluk + resmin yüksekliği */
+  left: 20%;
+  font-family: "Architects Daughter", cursive;
+}
+
+
+.left {
+  position: absolute;
+  top: -15%;
+  left: -25%;
+  width: 60vw;
+  padding: 10px;
+}
+
+.right {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20vw;
+  padding: 10px;
+}
+
+.bottom {
+  width: 25vw;
+  padding: 10px;
+  margin-left: 62%;
+  margin-top: 3vh; /* add margin for spacing */
+}
+
+.main-content {
+  margin-top: 100px; /* Adjust this value to place "sude" below the left and right images */
+}
+
+.gradient-page1 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #D3C5D4, #C2F5FF);
+}
+
+.about-page {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-color: #C2F5FF;
+  background-position: center;
+  background-repeat: repeat;
+  position: relative;
+  display: flex;
+  font-family: 'Architects Daughter', cursive; /* Google Fonts ekleyebilirsiniz */
+}
+
+.gradient-page2 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #2144FF, #FFF);
+}
+
+.experiences-page {
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.bubble-title {
+  margin-top: 5vh;
+}
+
+.bubbles-container {
+  position: relative; /* Konumlandırma için relative olmalı */
+  width: 100%;
+  height: 100vh;
+}
+
+.bubble {
+  position: absolute; /* Her balonun konumunu belirlemek için absolute */
+  background-image: url('./assets/10.png'); /* Balon resminin yolu */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  padding: 20px;
+  border-radius: 50%; /* Balon şeklinde olmasını sağlar */
+}
+
+.bubble h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.gradient-page3 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #FFF, #F4D7FF);
+}
+
+.projects-page {
+  width: 100%;
+  height: max-content;
+  background-color: #F4D7FF;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  background-color: #F4D7FF;
+  color: #000;
+}
+
+.project {
+  width: 45%;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-page4 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #F4D7FF, #DAFFE9);
+}
+.designs{
+  background-color: #DAFFE9;
+}
+.designs-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+  padding: 20px;
+  background-color: #DAFFE9; /* Arka plan rengi */
+}
+
+.frame {
+  border: 5px solid green; /* Çerçeve rengi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.frame img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.frame-1 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.frame-2 {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+}
+
+.frame-3 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.frame-4 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.frame-5 {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+
+.frame-6 {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+}
+
+.frame-7 {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+
+.frame-8 {
+  grid-column: 3 / 4;
+  grid-row: 2 / 4;
+}
+
+.frame-9 {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+}
+
+.frame-10 {
+  grid-column: 3 / 4;
+  grid-row: 4 / 5;
+}
+
+.gradient-page5 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #DAFFE9, #FFE0B6);
+}
+.certificates-page {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #FFE0B6; /* Arka plan rengi */
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.title {
+  text-align: center;
+  font-size: 4em;
+  color: #fff;
+  margin: 20px 0;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.certificates-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.certificate-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.certificate-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.orange-slice {
+  position: absolute;
+  
+}
+
+.top-left {
+  width: 150px;
+  height: 150px;
+  top: -5vh;
+  left: -5vw;
+}
+
+.top-right {
+  width: 250px;
+  height: 250px;
+  top: 5vh;
+  right: -5vw;
+}
+
+.bottom-left {
+  width: 250px;
+  height: 250px;
+  bottom: 5vh;
+  left: -5vw;
+}
+
+.bottom-right {
+  width: 50px;
+  height: 50px;
+  bottom: 5vh;
+  right: 0vw;
+}
+
+.gradient-page6 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #FFE0B6, #FBF7D8);
+}
+
+.hobbies{
+  width: 100%;
+  height: 100vh;
+  background-color: #FBF7D8;
+}
+
+.gradient-page7 {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #FBF7D8, #D8ECFB);
+}
+
+.connect-page {
+  width: 100%;
+  height: 100vh;
+  background-color: #D8ECFB;
+}
